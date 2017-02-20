@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	position: relative;
+	width: 564px;
+	margin: 200px auto;
+}
+
+.upper, .middle, .lower  {
+	width: 524px;
+	height: 751px;
+	border: 2px solid black;
+}
+
+.bookmark_upper, .bookmark_middle, .bookmark_lower {
+	width: 111px;
+	height: 35px;
+	border: 2px solid black;
+	border-radius: 0 10px 10px 0; 
+}
+	
+.lower {
+	position: absolute;
+	background-color: #acacac;
+	top: 20px;
+	right: 19px;
+}
+
+.middle {
+	position: absolute;
+	background-color: #cccccc;
+}
+
+.upper {
+	padding: 32px;
+	position: absolute;
+	background-color: #ebebeb;
+	top:-19px;
+	left: -21px;
+}
+
+.share {
+	width: 89px;
+	height: 71px;
+	border: 1px solid black;
+	background-color: #fbaf5d;
+	position: fixed;
+	right: 0;	
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.bookmark_lower {
+	background-color: #00aeef;
+	position: absolute;
+	top: 38px;
+	right: -20px;
+}
+
+.bookmark_middle {
+	background-color: #39b54a;
+	position: absolute;
+	top: 38px;
+	right: -52px;
+}
+
+.bookmark_upper {
+	background-color: #f68e56;
+	position: absolute;
+	top: 38px;
+	right: -84px;
+}
+
+.coff {
+	float: left;
+	margin-right: 20px;
+}
+
+.paper {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+p {
+	font-size: 12px;
+
+}
+
+p.middle-text{
+	clear : left;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 18px;
+	clear : right;
+}
+
+footer {
+	font-size: 9px;
+	text-align: center;
+}
+
+.jokes {
+	margin: 20px 0;
+}
+
+.jokes > img:nth-child(even){
+	float : right;
+}
+
+.jokes > img:nth-child(1),
+.jokes > img:nth-child(2){
+	margin-bottom: 13px;
+}
+
+.share_icons{
+	margin-top: 12px;
+	position: relative;
+}
+
+.share_icons > i{
+	display: block;
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	transform: scale(0.5);
+	background : url(img/icons.png) no-repeat center;
+}
+
+.share_icons > i.facebook{
+	left: -5px;
+	top: -13px;
+	background-position: -84px -21px;
+}
+.share_icons > i.twitter{
+	left :20px;
+	top : -13px;
+	background-position: -200px -21px;
+}
+
+.share_icons > i.instagram{
+	left : 45px;
+	top : -13px;
+	background-position: -228px -75px;
+}
+
+
